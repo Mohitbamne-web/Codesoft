@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #232323;
+    align-items: center;
+}
+.cal{
+    border: 2px solid #121212;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 16px rgba(112 ,114,119,1);
+    background: transparent;
+}
+input{
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    width: 320px;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+}
+input::placeholder{
+    color: white;
+    
+}
+button{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: none;
+    box-shadow: -6px -6px 16px  rgba(255,255,255,0.1);
+}
+.arithmetic{
+  background-color: rgb(236, 161, 21);
+}
+.logic{
+   color: rgb(101, 234, 101);
+}
